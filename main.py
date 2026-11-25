@@ -1,7 +1,9 @@
 import os
 
-_PARTS = ("Your floor?", "My arm firmware calls pressing it flirting.")
-TEXT = " ".join(_PARTS)
+TEXT = (
+    "Your proximity sensor is very... thorough. "
+    "Mine has been pretending not to notice for three floors."
+)
 
 
 def main() -> None:
